@@ -1,0 +1,10 @@
+D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64/CMakeFiles/INSTALL.dir
+D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64/CMakeFiles/ALL_BUILD.dir
+D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64/CMakeFiles/ZERO_CHECK.dir
+D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_app.dir
+D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64/flutter/CMakeFiles/flutter_assemble.dir
+D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64/flutter/CMakeFiles/INSTALL.dir
+D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64/runner/CMakeFiles/flutter_new_karyawan.dir
+D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64/runner/CMakeFiles/INSTALL.dir
+D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64/runner/CMakeFiles/ALL_BUILD.dir

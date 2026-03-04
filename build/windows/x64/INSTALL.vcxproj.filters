@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\SI61PAB2 - Alfin\Daftar-Karyawan\flutter_new_karyawan\build\windows\x64\CMakeFiles\4fddb28788fd010db5c40bbbf62c5c26\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A2F1EE80-0444-36E7-9B70-6BE55C868E50}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64/runner/Debug/data/icudtl.dat
+D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64/runner/Debug/flutter_windows.dll
+D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.bin
+D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64/runner/Debug/data/flutter_assets/assets/karyawan.json
+D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64/runner/Debug/data/flutter_assets/FontManifest.json
+D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64/runner/Debug/data/flutter_assets/kernel_blob.bin
+D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64/runner/Debug/data/flutter_assets/NativeAssetsManifest.json
+D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64/runner/Debug/data/flutter_assets/NOTICES.Z
+D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag
+D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64/runner/Debug/data/flutter_assets/shaders/stretch_effect.frag

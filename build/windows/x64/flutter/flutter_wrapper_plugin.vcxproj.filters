@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\SI61PAB2 - Alfin\Daftar-Karyawan\flutter_new_karyawan\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SI61PAB2 - Alfin\Daftar-Karyawan\flutter_new_karyawan\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SI61PAB2 - Alfin\Daftar-Karyawan\flutter_new_karyawan\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\SI61PAB2 - Alfin\Daftar-Karyawan\flutter_new_karyawan\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A2F1EE80-0444-36E7-9B70-6BE55C868E50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{13DDB832-F61D-3589-811D-80F2B237504F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
