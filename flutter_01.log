@@ -1,0 +1,73 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter debug_adapter
+
+## exception
+
+RPCError: readyToResume: (-32603) Unexpected DWDS error for resume: WipError -32000 Cannot find context with specified id
+
+```
+#0      new _OutstandingRequest (package:vm_service/src/vm_service.dart:268:34)
+#1      VmService._call.<anonymous closure> (package:vm_service/src/vm_service.dart:1950:25)
+#2      VmService._call (package:vm_service/src/vm_service.dart:1962:8)
+#3      VmService.callServiceExtension (package:vm_service/src/vm_service.dart:1901:14)
+#4      VmService.callMethod (package:vm_service/src/vm_service.dart:1884:12)
+#5      DdsExtension._callHelper (package:dds_service_extensions/dds_service_extensions.dart:369:12)
+#6      DdsExtension.readyToResume (package:dds_service_extensions/dds_service_extensions.dart:327:12)
+<asynchronous suspension>
+#7      IsolateManager._readyToResume (package:dds/src/dap/isolate_manager.dart:425:7)
+<asynchronous suspension>
+#8      IsolateManager.readyToResumeThread (package:dds/src/dap/isolate_manager.dart:306:5)
+<asynchronous suspension>
+#9      IsolateManager._handlePause (package:dds/src/dap/isolate_manager.dart:695:7)
+<asynchronous suspension>
+#10     IsolateManager.handleEvent (package:dds/src/dap/isolate_manager.dart:207:7)
+<asynchronous suspension>
+#11     DartDebugAdapter.handleDebugEvent (package:dds/src/dap/adapters/dart.dart:2470:5)
+<asynchronous suspension>
+#12     DartDebugAdapter._withErrorHandling (package:dds/src/dap/adapters/dart.dart:2832:14)
+<asynchronous suspension>
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 3.41.4, on Microsoft Windows [Version 10.0.19045.6466], locale en-ID) [2.3s]
+    • Flutter version 3.41.4 on channel stable at C:\flutter\src\flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision ff37bef603 (3 days ago), 2026-03-03 16:03:22 -0800
+    • Engine revision e4b8dca3f1
+    • Dart version 3.11.1
+    • DevTools version 2.54.1
+    • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations, enable-native-assets, omit-legacy-version-file, enable-lldb-debugging, enable-uiscene-migration
+
+[✓] Windows Version (10 Pro 64-bit, 22H2, 2009) [5.5s]
+
+[!] Android toolchain - develop for Android devices (Android SDK version 35.0.0) [8.2s]
+    • Android SDK at C:\Users\USER\AppData\Local\Android\sdk
+    • Emulator version 35.2.10.0 (build_id 12414864) (CL:N/A)
+    ✗ Flutter requires Android SDK 36 and the Android BuildTools 28.0.3
+      To update the Android SDK visit https://flutter.dev/to/windows-android-setup for detailed instructions.
+    ! Some Android licenses not accepted. To resolve this, run: flutter doctor --android-licenses
+
+[✓] Chrome - develop for the web [376ms]
+    • Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[✓] Visual Studio - develop Windows apps (Visual Studio Community 2022 17.11.5) [369ms]
+    • Visual Studio at C:\Program Files\Microsoft Visual Studio\2022\Community
+    • Visual Studio Community 2022 version 17.11.35327.3
+    • Windows 10 SDK version 10.0.22621.0
+
+[✓] Connected device (3 available) [1,669ms]
+    • Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.19045.6466]
+    • Chrome (web)      • chrome  • web-javascript • Google Chrome 145.0.7632.160
+    • Edge (web)        • edge    • web-javascript • Microsoft Edge 140.0.3485.81
+
+[✓] Network resources [665ms]
+    • All expected network resources are available.
+
+! Doctor found issues in 1 category.
+```

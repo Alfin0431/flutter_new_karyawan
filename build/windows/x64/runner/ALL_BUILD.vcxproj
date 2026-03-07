@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
   </PropertyGroup>
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
@@ -18,9 +21,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{CB8D069F-F2E4-3662-A803-0008360C01A5}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{29BB4293-F27F-3889-A8A9-3F541699F5E5}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -29,17 +32,17 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -85,11 +88,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\SI61PAB2 - Alfin\Daftar-Karyawan\flutter_new_karyawan\windows\runner\CMakeLists.txt">
-      <StdOutEncoding>UTF-8</StdOutEncoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/windows/runner/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\1. DATABASE PT BERKATSAWIT SUKAMAJU\ALFIN\Semester 6\PAB II\flutter_new_karyawan\windows\runner\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/1. DATABASE PT BERKATSAWIT SUKAMAJU/ALFIN/Semester 6/PAB II/flutter_new_karyawan/windows/runner/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/windows" "-BD:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64" --check-stamp-file "D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64/runner/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/1. DATABASE PT BERKATSAWIT SUKAMAJU/ALFIN/Semester 6/PAB II/flutter_new_karyawan/windows" "-BD:/1. DATABASE PT BERKATSAWIT SUKAMAJU/ALFIN/Semester 6/PAB II/flutter_new_karyawan/build/windows/x64" --check-stamp-file "D:/1. DATABASE PT BERKATSAWIT SUKAMAJU/ALFIN/Semester 6/PAB II/flutter_new_karyawan/build/windows/x64/runner/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -98,11 +101,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\SI61PAB2 - Alfin\Daftar-Karyawan\flutter_new_karyawan\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\1. DATABASE PT BERKATSAWIT SUKAMAJU\ALFIN\Semester 6\PAB II\flutter_new_karyawan\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/windows/runner/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule D:/1. DATABASE PT BERKATSAWIT SUKAMAJU/ALFIN/Semester 6/PAB II/flutter_new_karyawan/windows/runner/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/windows" "-BD:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64" --check-stamp-file "D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64/runner/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/1. DATABASE PT BERKATSAWIT SUKAMAJU/ALFIN/Semester 6/PAB II/flutter_new_karyawan/windows" "-BD:/1. DATABASE PT BERKATSAWIT SUKAMAJU/ALFIN/Semester 6/PAB II/flutter_new_karyawan/build/windows/x64" --check-stamp-file "D:/1. DATABASE PT BERKATSAWIT SUKAMAJU/ALFIN/Semester 6/PAB II/flutter_new_karyawan/build/windows/x64/runner/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -111,11 +114,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\SI61PAB2 - Alfin\Daftar-Karyawan\flutter_new_karyawan\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\1. DATABASE PT BERKATSAWIT SUKAMAJU\ALFIN\Semester 6\PAB II\flutter_new_karyawan\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/windows/runner/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/1. DATABASE PT BERKATSAWIT SUKAMAJU/ALFIN/Semester 6/PAB II/flutter_new_karyawan/windows/runner/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/windows" "-BD:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64" --check-stamp-file "D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/build/windows/x64/runner/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/1. DATABASE PT BERKATSAWIT SUKAMAJU/ALFIN/Semester 6/PAB II/flutter_new_karyawan/windows" "-BD:/1. DATABASE PT BERKATSAWIT SUKAMAJU/ALFIN/Semester 6/PAB II/flutter_new_karyawan/build/windows/x64" --check-stamp-file "D:/1. DATABASE PT BERKATSAWIT SUKAMAJU/ALFIN/Semester 6/PAB II/flutter_new_karyawan/build/windows/x64/runner/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -124,21 +127,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\SI61PAB2 - Alfin\Daftar-Karyawan\flutter_new_karyawan\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\1. DATABASE PT BERKATSAWIT SUKAMAJU\ALFIN\Semester 6\PAB II\flutter_new_karyawan\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\SI61PAB2 - Alfin\Daftar-Karyawan\flutter_new_karyawan\build\windows\x64\ZERO_CHECK.vcxproj">
-      <Project>{826F2FCE-E043-3026-8E4F-820E7ECA91AA}</Project>
+    <ProjectReference Include="D:\1. DATABASE PT BERKATSAWIT SUKAMAJU\ALFIN\Semester 6\PAB II\flutter_new_karyawan\build\windows\x64\ZERO_CHECK.vcxproj">
+      <Project>{68F36592-455A-326A-B9BE-13C3E7E20456}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\SI61PAB2 - Alfin\Daftar-Karyawan\flutter_new_karyawan\build\windows\x64\runner\flutter_new_karyawan.vcxproj">
-      <Project>{F8D19346-1E27-3E06-9E0B-7B321056CAE5}</Project>
+    <ProjectReference Include="D:\1. DATABASE PT BERKATSAWIT SUKAMAJU\ALFIN\Semester 6\PAB II\flutter_new_karyawan\build\windows\x64\runner\flutter_new_karyawan.vcxproj">
+      <Project>{E3174C0A-6823-34C0-B446-372418960DDB}</Project>
       <Name>flutter_new_karyawan</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,4 +1,4 @@
-# Install script for directory: D:/SI61PAB2 - Alfin/Daftar-Karyawan/flutter_new_karyawan/windows/runner
+# Install script for directory: D:/1. DATABASE PT BERKATSAWIT SUKAMAJU/ALFIN/Semester 6/PAB II/flutter_new_karyawan/windows/runner
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

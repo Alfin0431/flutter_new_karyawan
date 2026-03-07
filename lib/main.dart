@@ -16,8 +16,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false, //// TAMBAHAN (hilangkan banner debug)
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.orange),
         useMaterial3: true,
+        scaffoldBackgroundColor: Colors.orange[50],
       ),
       home: const MyHomePage(),
     );
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatelessWidget {
+  
   const MyHomePage({super.key});
 
   Future<List<Karyawan>> _readJsonData() async {
@@ -40,11 +42,19 @@ class MyHomePage extends StatelessWidget {
         elevation: 3, //// TAMBAHAN
         centerTitle: true, //// TAMBAHAN
         backgroundColor: Theme.of(context).colorScheme.primary,
-        title: const Text(
+        leading: const Icon(Icons.group, color: Colors.white),
+        title: Text(
           "DAFTAR KARYAWAN",
           style: TextStyle(
             fontWeight: FontWeight.bold, //// TAMBAHAN
             color: Colors.white, //// TAMBAHAN
+            shadows: [
+              Shadow(
+                color: Colors.black.withOpacity(0.5),
+                offset: Offset(1, 1),
+                blurRadius: 2,
+              ),
+            ],
           ),
         ),
       ),
@@ -97,25 +107,27 @@ class MyHomePage extends StatelessWidget {
                               Text(
                                 karyawan.nama,
                                 style: const TextStyle(
-                                  fontSize: 18,
+                                  fontSize: 20,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
                               const SizedBox(height: 6), //// TAMBAHAN
-                              Text(
+                             Text(
                                 'Umur : ${karyawan.umur}',
-                                style: const TextStyle(color: Colors.grey),
+                                style: TextStyle(color: Colors.black87),
                               ),
-                              const SizedBox(height: 6), //// TAMBAHAN
+
                               Text(
                                 'Alamat : ${karyawan.alamat.jalan}, ${karyawan.alamat.kota}, ${karyawan.alamat.provinsi}',
-                                style: const TextStyle(color: Colors.grey),
+                                style: TextStyle(color: Colors.black87),
                               ),
+
                               Text(
                                 'Hobi : ${karyawan.hobi.join(", ")}',
-                                style: const TextStyle(color: Colors.grey),
+                                style: TextStyle(color: Colors.black87),
                               ),
-                              const SizedBox(height: 10), //// TAMBAHAN
+
+                              const SizedBox(height: 10),
                             ],
                           ),
                         ),

@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="D:\SI61PAB2 - Alfin\Daftar-Karyawan\flutter_new_karyawan\build\windows\x64\CMakeFiles\0ddafae7f7bf5cb2ae9d1c3ef7e3d5bd\flutter_windows.dll.rule">
+    <CustomBuild Include="D:\1. DATABASE PT BERKATSAWIT SUKAMAJU\ALFIN\Semester 6\PAB II\flutter_new_karyawan\build\windows\x64\CMakeFiles\56ff00e110c117f3647f6e45b87d948e\flutter_windows.dll.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="D:\SI61PAB2 - Alfin\Daftar-Karyawan\flutter_new_karyawan\build\windows\x64\CMakeFiles\c6524870d86874031aa66a6bb0f61d00\flutter_assemble.rule">
+    <CustomBuild Include="D:\1. DATABASE PT BERKATSAWIT SUKAMAJU\ALFIN\Semester 6\PAB II\flutter_new_karyawan\build\windows\x64\CMakeFiles\d12831f0aa7954d8140b3db1a59894c3\flutter_assemble.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="D:\SI61PAB2 - Alfin\Daftar-Karyawan\flutter_new_karyawan\windows\flutter\CMakeLists.txt" />
+    <CustomBuild Include="D:\1. DATABASE PT BERKATSAWIT SUKAMAJU\ALFIN\Semester 6\PAB II\flutter_new_karyawan\windows\flutter\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="D:\SI61PAB2 - Alfin\Daftar-Karyawan\flutter_new_karyawan\build\windows\x64\flutter\CMakeFiles\flutter_assemble" />
+    <None Include="D:\1. DATABASE PT BERKATSAWIT SUKAMAJU\ALFIN\Semester 6\PAB II\flutter_new_karyawan\build\windows\x64\flutter\CMakeFiles\flutter_assemble" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{A2F1EE80-0444-36E7-9B70-6BE55C868E50}</UniqueIdentifier>
+      <UniqueIdentifier>{AEB30444-C159-3A61-A7AB-A1528E363512}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
